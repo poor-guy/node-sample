@@ -1,5 +1,6 @@
 const express = require('express')
 const app = express()
+const model = require("./model");
 
 app.get('/',
 function (req, res) {
